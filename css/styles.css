@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Roboto', 'Times New Roman', Times, serif ,sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.brand{
+    background-color: #E60023;
+    color: white;
+    font-size: 1.5em;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.contenedorCardPokemons, .main-conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px auto;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+.cardPokemon{
+    width: 12rem;
+    padding: 10px 15px;
+    margin: 5px 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.cardPokemon h4{
+    font-size: 1.2em;
+}
+.cardPokemon h4::first-letter{
+    text-transform: uppercase;
+}
+.cardPokemon h5{
+    font-size: 1em;
+}
+.cardPokemon h4,h5{
+    text-align: center;
+}
+.cardPokemon button{
+    width: 100%;
+    margin: auto;
+}
+
+.datoPokemon2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.atributosP{
+    display: flex;
+    flex-wrap: wrap;
+}
+.atributosP h5{
+    display: block;
+    width: 100%;
+}
+
+.habilidades, .movimiento{
+    margin: 20px auto 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+.habilidades h5, .movimiento h5{
+    width: 100%;
+}
+
+#habilidadP, #movimientoP{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.habilidades p, .movimientos p{
+    display: inline;
+    margin: 10px;
+    padding: 5px;
+}
